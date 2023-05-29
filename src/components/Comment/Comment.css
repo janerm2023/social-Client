@@ -1,0 +1,85 @@
+.comment-container {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.writeComment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.writeComment img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.comment input {
+  width: 85%;
+  background: none;
+  outline: none;
+  border: 1px solid #e6e6e6e0;
+  padding: 5px 6px;
+  border-left: none;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.sendCommentBtn {
+  font-size: 12px;
+  padding: 5px 13px;
+  background: #131371;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.peopleComment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.peopleComment img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.commentDetails {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commentContent {
+  width: 85%;
+}
+
+.commentContent h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.commentContent p {
+  font-size: 13px;
+  padding-top: 7px;
+}
+
+.commentDetails span {
+  font-size: 12px;
+}

@@ -1,0 +1,30 @@
+.onlineFriends {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.onlineFriendsWrapper {
+  position: relative;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.onlineFriendsWrapper img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.online-sign {
+  position: absolute;
+  background: lightgreen;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 0;
+  right: -1px;
+  border: 2px solid white;
+}

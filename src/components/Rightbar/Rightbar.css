@@ -1,0 +1,126 @@
+.rightbar {
+  flex: 3.5;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+.suggestionWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+}
+
+.suggest {
+  width: 95%;
+  height: 130px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.suggest h4 {
+  font-size: 12px;
+  color: #b8b8b8;
+  margin-bottom: 6px;
+}
+
+.suggestList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightSuggest {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.suggestList img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.suggest span {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.btns {
+  padding-right: 10px;
+}
+
+.follow {
+  border-radius: 0;
+  font-size: 12px;
+  padding: 4px;
+  background: blue;
+  cursor: pointer;
+  margin-right: 3px;
+  color: white;
+}
+
+.dismiss {
+  border-radius: 0;
+  font-size: 12px;
+  padding: 4px;
+  background: red;
+  cursor: pointer;
+  margin-left: 3px;
+  color: white;
+}
+
+.latest {
+  width: 95%;
+  height: 250px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.latest h4 {
+  font-size: 12px;
+  color: #b8b8b8;
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.activitiesImg {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.activitiesImg img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.activity span {
+  font-size: 12px;
+}
+
+.online {
+  width: 95%;
+  height: 400px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  margin-top: 15px;
+}
+
+.online h4 {
+  font-size: 12px;
+  color: #b8b8b8;
+}

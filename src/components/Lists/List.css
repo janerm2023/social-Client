@@ -1,0 +1,18 @@
+.leftBarFriend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 13px 0;
+}
+
+.sidebarFriendImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sidebarFriendName {
+  font-size: 16px;
+  font-weight: 600;
+}

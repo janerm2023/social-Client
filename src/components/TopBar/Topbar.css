@@ -1,0 +1,95 @@
+.topbarContainer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  border-bottom: 1px solid #dededed4;
+}
+
+.topbarLeft {
+  flex: 6;
+}
+
+.topbarLeftWrapper {
+  /* background-color: green; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.topIcon {
+  padding: 0 10px;
+  font-size: 32px;
+  color: #2e2b2b;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #d4d4d4;
+  margin-left: 10px;
+  border-radius: 3px;
+  padding: 4px 7px;
+}
+
+.search-btn {
+  font-size: 19px;
+  font-weight: 700;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.search-box input {
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.topbarCenter {
+  flex: 4;
+}
+
+.topbarRight {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+.topbarRight .topIcon {
+  font-size: 18px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.username {
+  font-size: 13px;
+}
